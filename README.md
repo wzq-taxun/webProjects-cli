@@ -11,7 +11,7 @@
 ```
 git clone xxx
 
-npm link (在本地将此项目包缓存到本地，便于在本地调试执行此包)
+npm link (在本地将此项目包缓存到本地(npm root -g)，便于在本地调试执行此包)
 
 通过执行 webprojects-cli 创建搭建新项目
 ```
