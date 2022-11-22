@@ -1,6 +1,6 @@
 # webProjects-cli
 
-一个快捷创建前端项目的自定义脚手架
+一个快捷创建前端项目的脚手架 项目类型可选 小程序 node服务
 
 # 环境安装
 
@@ -24,6 +24,7 @@ npm i webprojects-cli -g
 通过执行 webprojects-cli 创建搭建新项目
 
 ? 请输入创建包名称 : xxx
+
 ? 请输入端口号 (默认 8080） : xxxx
 ? 请选择要安装的依赖包 koaStatic, koaRouter
 ```

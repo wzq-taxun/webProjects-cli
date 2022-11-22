@@ -1,7 +1,8 @@
 
 export default (configsval) => {
+  console.log(configsval);
   function doconfigs(name) {
-    return configsval.middleware.indexOf(name) !== -1;
+    return  configsval.middleware && configsval.middleware.indexOf(name) !== -1;
   };
   return {
     packageName: configsval.packageName,
@@ -13,4 +14,10 @@ export default (configsval) => {
       views: false,
     }
   }
+}
+
+
+export const codeType = {
+  nd: 'node服务',
+  mini: '小程序'
 }

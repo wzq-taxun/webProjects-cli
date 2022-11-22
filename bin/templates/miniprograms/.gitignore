@@ -1,0 +1,7 @@
+node_modules
+miniprogram_npm
+.vscode
+.husky
+project.private.config.json
+.history
+package-lock.json
