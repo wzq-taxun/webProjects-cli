@@ -1,6 +1,5 @@
 
 export default (configsval) => {
-  console.log(configsval);
   function doconfigs(name) {
     return  configsval.middleware && configsval.middleware.indexOf(name) !== -1;
   };

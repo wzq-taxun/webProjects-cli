@@ -13,7 +13,6 @@ import path from 'path';
 const __dirname = fileURLToPath(import.meta.url);
 
 const projectType = await changeProjectType();
-console.log(projectType);
 let configsval = null;
 let inputconfig = null;
 switch (projectType.nameProject) {
@@ -39,9 +38,7 @@ switch (projectType.nameProject) {
     fs.writeFileSync(`${getRootpath()}/package.json`, creatPackagestr({ ...inputconfig, ...projectType }));
     break;
   case codeType.mini:
-    console.log('9999');
     configsval = await miniprogramQuestion();
-    console.log(configsval);
     inputconfig = configsdo(configsval);
     /**
      * 创建文件夹
