@@ -1,0 +1,36 @@
+{
+  "name": "webprojects-cli",
+  "version": "1.0.0",
+  "description": "一个快捷创建前端项目的自定义脚手架",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "type": "module",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "rm -rf ./hei && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzq-taxun/webProjects-cli.git"
+  },
+  "author": "wzq-txxun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzq-taxun/webProjects-cli/issues"
+  },
+  "homepage": "https://github.com/wzq-taxun/webProjects-cli#readme",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "ejs": "^3.1.8",
+    "execa": "^6.1.0",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.1",
+    "@types/prettier": "^2.7.1",
+    "prettier": "^2.7.1"
+  }
+}
