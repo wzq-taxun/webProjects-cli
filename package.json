@@ -7,7 +7,8 @@
   "type": "module",
   "files": [
     "bin",
-    "package.json"
+    "package.json",
+    "package-lock.json"
   ],
   "scripts": {
     "test": "rm -rf ./hei && node index.js"
