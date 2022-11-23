@@ -1,6 +1,6 @@
 {
   "name": "webprojects-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "一个快捷创建前端项目的自定义脚手架",
   "keywords": [ "cli", "小程序", "node服务" ],
   "main": "index.js",
