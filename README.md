@@ -8,7 +8,7 @@
 
 ### v16.2.0 +
 
-## 2、推荐安装包管理工具 pnpm 替代 npm (试试就知道为啥了)
+## 2、推荐安装包管理工具 pnpm 替代 npm
 
 ```
 npm install -g pnpm
@@ -20,7 +20,7 @@ npm install -g pnpm
 ```
 git clone xxx
 
-npm link (在本地将此项目包缓存到本地(npm root -g)，便于在本地调试执行此包)
+pnpm link (在本地将此项目包缓存到本地(pnpm root -g)，便于在本地调试执行此包)
 
 通过执行 webprojects-cli 创建搭建新项目
 ```

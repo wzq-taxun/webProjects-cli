@@ -1,8 +1,12 @@
 {
   "name": "webprojects-cli",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "一个快捷创建前端项目的自定义脚手架",
-  "keywords": [ "cli", "小程序", "node服务" ],
+  "keywords": [
+    "cli",
+    "小程序",
+    "node服务"
+  ],
   "main": "index.js",
   "bin": "./bin/index.js",
   "type": "module",
@@ -24,13 +28,12 @@
   },
   "homepage": "https://github.com/wzq-taxun/webProjects-cli#readme",
   "dependencies": {
+    "@types/ejs": "^3.1.1",
+    "@types/prettier": "^2.7.1",
     "chalk": "^5.1.2",
     "ejs": "^3.1.8",
     "execa": "^6.1.0",
     "inquirer": "^9.1.4",
-    "webprojects-cli": "^1.0.0",
-    "@types/ejs": "^3.1.1",
-    "@types/prettier": "^2.7.1",
     "prettier": "^2.7.1"
   }
 }

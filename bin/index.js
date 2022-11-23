@@ -69,7 +69,7 @@ switch (projectType.nameProject) {
 
 console.log(chalk.blue(`安装依赖...`));
 const isWin32 = process.platform === 'win32';
-const npmCommander = isWin32 ? 'npm.cmd' : 'npm';
+const npmCommander = isWin32 ? 'pnpm.cmd' : 'pnpm';
 execa(`${npmCommander}`, ['i'], {
   cwd: getRootpath(),
   stdio: [2, 2, 2],
@@ -79,7 +79,7 @@ execa(`${npmCommander}`, ['i'], {
     if (projectType.nameProject === codeType.nd) {
       console.log(chalk.blue(`依次执行:`))
       console.log(chalk.blue(`cd ${getRootpath()}`));
-      console.log(chalk.blue(`npm run dev`));
+      console.log(chalk.blue(`pnpm run dev`));
     } else {
       console.log(chalk.blue(`用微信开发者工具打开 ${inputconfig.packageName} 文件夹`));
     }
